@@ -1,0 +1,44 @@
+//
+// Prefix header for all source files of the 'goTogether' target in the 'goTogether' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import "goTogetherGlobals.h"
+    #import "CoreData+MagicalRecord.h"
+    #include <AddressBook/ABAddressBook.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+
+    #import "UIButton+GTExtensions.h"
+    #import "SIAlertView.h"
+    #import "NSDate+GTExtensions.h"
+
+    #import "goTogetherAppDelegate.h"
+    #import "TABaseViewController.h"
+    #import "TABaseTableViewController.h"
+
+    #import "GTDataManager.h"
+
+    #import "GTAnalyticConstants.h"
+    #import "GTAnalyticsManager.h"
+
+    #import "User.h"
+    #import "Event.h"
+    #import "Friend.h"
+    #import "Comment.h"
+    #import "Place.h"
+    #import "Vehicle.h"
+    #import "Notification.h"
+
+    #import "GTTravellerDetails.h"
+
+#endif

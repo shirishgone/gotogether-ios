@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "gotogether"
+        }, 
+        "gotogether": {
+            "applicationId": "RrK57GJdPY743N1iQm0mHnAP30W0khz4rZzDJFNG", 
+            "masterKey": "SRNs2Oxdb7Gk2YrdRGp5OVlLlY4p8Oyj4smMVk7o"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.2"
+    }
+}

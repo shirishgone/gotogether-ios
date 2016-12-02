@@ -1,0 +1,14 @@
+//
+//  Config.xcconfig
+//  goTogether
+//
+//  Created by Robert Duke on 4/11/12.
+//  Copyright (c) 2012 Mutual Mobile. All rights reserved.
+//
+
+MODEL_BASE_CLASS = MMRecord
+DATA_MODELD_NAME = goTogetherDataModel.xcdatamodeld
+PROJECT_DATAMODEL_PATH = $SRCROOT/Classes/DataModel
+HUMAN_FOLDER_GROUP_PATH = $PROJECT_DATAMODEL_PATH/Human
+MACHINE_FOLDER_GROUP_PATH = $PROJECT_DATAMODEL_PATH/Machine
+IS_ARC = true

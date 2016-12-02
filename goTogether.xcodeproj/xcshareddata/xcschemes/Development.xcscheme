@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0610"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "MODELENDING=&quot;DataModel.xcdatamodeld&quot;&#10;DATAMODEL_WRAPPER=&quot;$PROJECT_DATAMODEL_PATH/$PRODUCT_NAME$MODELENDING&quot;&#10;DATAMODEL_CURRENT=`/usr/libexec/PlistBuddy -c &quot;print _XCCurrentVersionName&quot; &quot;$DATAMODEL_WRAPPER&quot;/.xccurrentversion`&#10;DATAMODEL_PATH=&quot;$DATAMODEL_WRAPPER/$DATAMODEL_CURRENT&quot;&#10;DATAMODEL_HEADER_PATH=&quot;DataModelHeaders.h&quot;&#10;if [ -z &quot;${MODEL_BASE_CLASS+xxx}&quot; ]; then&#10;mogenerator --model &quot;$DATAMODEL_PATH&quot; -M $MACHINE_FOLDER_GROUP_PATH -H $HUMAN_FOLDER_GROUP_PATH --includeh &quot;$PROJECT_DATAMODEL_PATH/$PRODUCT_NAME$DATAMODEL_HEADER_PATH&quot; --template-var arc=$IS_ARC&#10;else&#10;mogenerator --model &quot;$DATAMODEL_PATH&quot; --base-class &quot;$MODEL_BASE_CLASS&quot; -M &quot;$MACHINE_FOLDER_GROUP_PATH&quot; -H &quot;$HUMAN_FOLDER_GROUP_PATH&quot; --includeh &quot;$PROJECT_DATAMODEL_PATH/$PRODUCT_NAME$DATAMODEL_HEADER_PATH&quot; --template-var arc=$IS_ARC&#10;fi">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "0B8DA21D1534762D00835108"
+                     BuildableName = "GoTogether.app"
+                     BlueprintName = "goTogether"
+                     ReferencedContainer = "container:goTogether.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B8DA21D1534762D00835108"
+               BuildableName = "GoTogether.app"
+               BlueprintName = "goTogether"
+               ReferencedContainer = "container:goTogether.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug_Development">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B118170153732C300E1F13F"
+               BuildableName = "goTogetherApplicationTests.octest"
+               BlueprintName = "goTogetherApplicationTests"
+               ReferencedContainer = "container:goTogether.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B11815A1537324000E1F13F"
+               BuildableName = "goTogetherLogicTests.octest"
+               BlueprintName = "goTogetherLogicTests"
+               ReferencedContainer = "container:goTogether.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0B8DA21D1534762D00835108"
+            BuildableName = "GoTogether.app"
+            BlueprintName = "goTogether"
+            ReferencedContainer = "container:goTogether.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug_Development"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0B8DA21D1534762D00835108"
+            BuildableName = "GoTogether.app"
+            BlueprintName = "goTogether"
+            ReferencedContainer = "container:goTogether.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "NSZoobieEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug_Development"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0B8DA21D1534762D00835108"
+            BuildableName = "GoTogether.app"
+            BlueprintName = "goTogether"
+            ReferencedContainer = "container:goTogether.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug_Development">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release_Development"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

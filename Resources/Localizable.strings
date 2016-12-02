@@ -1,0 +1,36 @@
+/* 
+  gt_strings.strings
+  goTogether
+
+  Created by shirish gone on 18/08/14.
+  Copyright (c) 2014 gotogether. All rights reserved.
+*/
+
+"no_internet" = "No Internet Connection.";
+"gotogether_title" ="gotogether - Intercity ride-sharing app.";
+
+//Ride details:
+//"REQUEST RIDE";
+//"REQUEST SENT";
+
+"profile_updated" = "Note: Please keep your profile updated with your bio, phone number and other details, for increased confidence to travel with you.";
+
+//1. Post ride confirmation
+"postride_title" = "Post Ride Confirmation.";
+"postride_message" = "You are travelling from %@ to %@ in %@ on %@, and you have %d available seats to share.";
+
+
+//2. Request ride confirmation.
+"requestride_title" = "Request Ride Confirmation.";
+"requestride_message" = "Your request for the ride on %@ from %@ to %@, will be sent to %@. Once %@ approves, we will intimate you by email and SMS.";
+"requestride_buttontitle" = "Request now";
+
+//3. Confirm Ride Confirmation
+"confirmride_title" = "Confirm Ride";
+"confirmride_message" = "Your confirmation will be sent to %@. Note: Confirmations cannot be cancelled, except in critical conditions.";
+"confirmride_buttontitle" = "Confirm now";
+
+//4. Reject ride confirmation.
+"rejectride_title" = "Reject ride confirmation.";
+"rejectride_message" = "Once you reject shirish gone’s request for this ride, he wont be able to send a request again.";
+"rejectride_buttontitle" = "Reject now";

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0610"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "RESULTSPATH=&quot;$SRCROOT/DOCUMENTATION/Results.txt&quot;&#10;&#10;exec &amp;&gt;&quot;$RESULTSPATH&quot;&#10;SETTINGPATH=&quot;$SRCROOT/Documentation/AppledocSettings.plist&quot;&#10;&#10;echo `/bin/date`&#10;echo &quot;\n&quot;&#10;&#10;/usr/local/bin/appledoc -t ~/.appledoc \&#10;--project-company &quot;Mutual Mobile&quot; \&#10;--company-id &quot;com.mutualmobile&quot; \&#10;--output &quot;$SRCROOT/Documentation/Output/&quot; \&#10;--index-desc &quot;$SRCROOT/Documentation/index.markdown&quot; \&#10;&quot;$SETTINGPATH&quot; \&#10;&quot;$SRCROOT&quot;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "0B118170153732C300E1F13F"
+                     BuildableName = "goTogetherApplicationTests.octest"
+                     BlueprintName = "goTogetherApplicationTests"
+                     ReferencedContainer = "container:goTogether.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B118170153732C300E1F13F"
+               BuildableName = "goTogetherApplicationTests.octest"
+               BlueprintName = "goTogetherApplicationTests"
+               ReferencedContainer = "container:goTogether.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Development">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Development"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0B118170153732C300E1F13F"
+            BuildableName = "goTogetherApplicationTests.octest"
+            BlueprintName = "goTogetherApplicationTests"
+            ReferencedContainer = "container:goTogether.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Production"
+      debugDocumentVersioning = "YES">
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Development">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Production"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

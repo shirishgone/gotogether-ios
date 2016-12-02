@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AvInternalPropEntity" representedClassName="AvInternalPropEntity">
+        <attribute name="propInt64Value" optional="YES" attributeType="Integer 64" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="propName" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="propStringValue" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <entity name="AvLogEntity" representedClassName="AvLogEntity">
+        <attribute name="crc" optional="YES" attributeType="Integer 64" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="eventId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flightId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gameLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0">
+            <userInfo/>
+        </attribute>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0">
+            <userInfo/>
+        </attribute>
+        <attribute name="seqNumber" optional="YES" attributeType="Integer 64" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="sessionId" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="timestamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <attribute name="type" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="uploadPending" optional="YES" attributeType="Boolean">
+            <userInfo/>
+        </attribute>
+        <attribute name="userId" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="value" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <fetchedProperty name="fetchedProperty" optional="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest"/>
+            <userInfo/>
+        </fetchedProperty>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="AvInternalPropEntity" positionX="-2" positionY="-9" width="128" height="90"/>
+        <element name="AvLogEntity" positionX="160" positionY="192" width="128" height="269"/>
+    </elements>
+</model>

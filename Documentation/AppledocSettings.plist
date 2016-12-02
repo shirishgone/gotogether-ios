@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>--project-name</key>
+	<string>goTogether</string>
+	<key>--project-version</key>
+	<string>0.1</string>
+	<key>--docset-feed-url</key>
+	<string>http://localhost:8081/static/%DOCSETATOMFILENAME</string>
+	<key>--repeat-first-par</key>
+	<false/>
+	<key>--logformat</key>
+	<string>xcode</string>
+	<key>--docset-package-url</key>
+	<string>http://localhost:8081/static/%DOCSETPACKAGEFILENAME</string>
+	<key>--publish-docset</key>
+	<true/>
+	<key>--ignore</key>
+	<array>
+		<string>*.m</string>
+		<string>ExternalRepos/AFNetworking</string>
+		<string>ExternalRepos/BWQuincyManager</string>
+		<string>ExternalRepos/GHUnitIOS.framework</string>
+		<string>ExternalRepos/JiraMobileConnect</string>
+		<string>ExternalRepos/MagicalRecord</string>
+		<string>ExternalRepos/OCMock</string>
+	</array>
+	<key>--exit-threshold</key>
+	<string>2</string>
+	<key>--print-settings</key>
+	<false/>
+	<key>--keep-undocumented-members</key>
+	<true/>
+	<key>--keep-undocumented-objects</key>
+	<false/>
+</dict>
+</plist>
